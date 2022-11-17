@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso de datos:</title>
+</head>
+
+<body>
+    <h1> Registrate Amigazo </h1>
+    <form action="alta.php" method="post">
+        <label for="nya">Nombre y Apellido: </label>
+        <input type="text" name="nya" required><br>
+        
+        <label for="Puesto">Puesto: </label>
+        <select name="select">
+            <option value="1">Mozo</option>
+            <option value="2">Chef</option>
+            <option value="3">Cocinero</option>
+            <option value="4">Cajero</option>
+            <option value="5">Gerente</option>
+          </select>
+          <br>
+
+        <label for="fecha">Fecha de ingreso: </label>
+        <input type="date" name="fecha" required><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+    <br>
+    <a href="mostrar_empleados.php"><input type="button" value="Tabla de empleados"></a>
+    <br>
+    <a href="buscar_empleado.html"><input type="button" value="Buscar"></a>
+
+
+</body>
+</html>
